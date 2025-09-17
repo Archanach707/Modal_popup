@@ -20,7 +20,7 @@ body {
   /* display: none; */
 }
 
-.popup.open {
+.popup-open .popup {
   /* display: block; */
   transform: scale(1);
   top: 50%;
@@ -37,3 +37,13 @@ body {
   font-family: serif;
 }
 
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0 , 0.3);
+}
+
+.popup-open .overlay {
+  display: block;
+}
