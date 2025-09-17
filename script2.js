@@ -3,7 +3,6 @@ const closeIcon = document.querySelector('.close-icon')
 const popupContainer = document.querySelector('.popup-container')
 const popup = document.querySelector('.popup')
 
-
 button.addEventListener('click', () => {
   popupContainer.classList.add('popup-open')
 })
