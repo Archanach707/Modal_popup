@@ -4,6 +4,15 @@ body {
   font-family: cursive;
 }
 
+button {
+  border: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: 700;
+}
+
 .popup {
   width: 500px;
   height: 300px;
