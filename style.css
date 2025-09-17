@@ -8,9 +8,15 @@ body {
   height: 300px;
   background-color: white;
   border-radius: 16px;
+  position: fixed;
+  inset: 0;
+  margin: auto;
 }
 
 .close-icon {
   font-size: 48px;
   font-weight: 700;
+  position: absolute;
+  right: 16px;
+  cursor: pointer;
 }
